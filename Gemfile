@@ -64,3 +64,8 @@ group :production do
   # logging and static assets (serve CSS and JavaScript assets)
   gem 'rails_12factor'
 end
+
+group :test do
+  gem  'minitest-spec-rails'
+  gem  'minitest-rails-capybara'
+end
